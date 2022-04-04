@@ -4,10 +4,10 @@ class Worker: #Declaramos la clase worker= Trabajador
 
     def __init__(self): 
 
-        self.worker = None
-        self.category = None
-        self.exhours = None
-        self.mxt = None
+        self.worker = ''
+        self.category = ''
+        self.exhours = 0
+        self.mxt = 0
         
     def inicio(self):    
         print(f"""
