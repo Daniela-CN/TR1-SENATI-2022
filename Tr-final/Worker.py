@@ -28,14 +28,11 @@ class Worker: #Declaramos la clase worker= Trabajador
     def icategory(self):   
             
         while True: #se usa el bucle "WHILE" para que el programa pregunte hasta que se ingrese un dato valido
-            try:
                 self.category= str(input("CATEGORÍA (A, B o C) :  ").upper())
                 if self.category == 'A' or self.category == 'B' or self.category == 'C':
                     break 
                 else:
                     print(Fore.CYAN,'EL CARÁCTER INGRESADO NO PERTENECE A LAS CATEGORÍAS ESTABLECIDAS',Fore.RESET)
-            except:
-                print(Fore.CYAN,'EL CARÁCTER INGRESADO NO PERTENECE A LAS CATEGORÍAS ESTABLECIDAS',Fore.RESET)
                 
         return self.category
     
