@@ -1,5 +1,3 @@
-from Worker import Worker
-
 class Boleta(): #Declaramos la clase Boleta, la cual deriva de la clase Worker
     
     def __init__(self, category, exhours, mxt): #se inicializa el constructor con los atributos
